@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Files</title>
+</head>
+<body>
+  <h1>Uploaded Files</h1>
+  <table border="1">
+    <tr>
+      <th>Original filename</th>
+      <th>Uploaded at (UTC)</th>
+      <th>Size (bytes)</th>
+      <th>Action</th>
+    </tr>
+    {% for f in files %}
+    <tr>
+      <td>{{ f.original_filename }}</td>
+      <td>{{ f.uploaded_at }}</td>
+      <td>{{ f.size_bytes }}</td>
+      <td><a href="/download/{{ f.stored_name }}">Download</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p><a href="/">Upload more</a></p>
+</body>
+</html>

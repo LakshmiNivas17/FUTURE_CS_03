@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Secure File Share</title>
+</head>
+<body>
+  <h1>Secure File Sharing (Flask)</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">Upload (will be encrypted)</button>
+  </form>
+  <p><a href="/files">View uploaded files</a></p>
+</body>
+</html>
