@@ -1,0 +1,20 @@
+{
+  "721c04aac3d426eb35a5d17f.enc": {
+    "original_filename": "ZAP_Report_OWASP_Top10_report.pdf",
+    "uploaded_at": "2025-09-10T11:13:33.814959Z",
+    "sha256": "dc84b828edc2f5665f0e11d2e2baf913d95238f50382f47c48f9a2ff8f2c7373",
+    "size_bytes": 4150
+  },
+  "8eb8576f5957d92f76913dde.enc": {
+    "original_filename": "2025-09-02-ZAP-Report_actual_report.pdf",
+    "uploaded_at": "2025-09-10T11:35:57.808640Z",
+    "sha256": "6b04a48481224efb829b01a951bb37d5bb9e7c9ad52d2dbd238d3c2657253d92",
+    "size_bytes": 103155
+  },
+  "c4f0953d32c44ab0a047f35e.enc": {
+    "original_filename": "project_structure.png",
+    "uploaded_at": "2025-09-10T11:53:46.576557Z",
+    "sha256": "cf68c1989b17bd078310674b4be457680b903c27a8c960667344c714a9b41079",
+    "size_bytes": 16807
+  }
+}
